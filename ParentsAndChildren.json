@@ -1,0 +1,71 @@
+{
+  "ggg": {
+    "parent": [],
+    "children": [
+      "wwww",
+      "www"
+    ]
+  },
+  "wwww": {
+    "parent": [
+      "ggg"
+    ],
+    "children": []
+  },
+  "www": {
+    "parent": [
+      "ggg"
+    ],
+    "children": [
+      "3234"
+    ]
+  },
+  "3234": {
+    "parent": [
+      "www"
+    ],
+    "children": [
+      "dfasdf",
+      "dfas",
+      "dfasdsg5"
+    ]
+  },
+  "dfasdf": {
+    "parent": [
+      "3234"
+    ],
+    "children": []
+  },
+  "dfas": {
+    "parent": [
+      "3234"
+    ],
+    "children": []
+  },
+  "dfasdsg5": {
+    "parent": [
+      "3234dfs"
+    ],
+    "children": []
+  },
+  "3234dfs": {
+    "parent": [],
+    "children": [
+      "dfasdsg5",
+      "333"
+    ]
+  },
+  "444": {
+    "parent": [],
+    "children": [
+      "333"
+    ]
+  },
+  "333": {
+    "parent": [
+      "444",
+      "3234dfs"
+    ],
+    "children": []
+  }
+}
